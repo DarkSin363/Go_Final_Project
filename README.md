@@ -45,6 +45,7 @@ REST API сервер для управления задачами с:
    ```bash
    go run main.go
 4. Откройте в браузере:
+   ```
    http://localhost:7540
 
 ## 🐳 Docker-образ и развертывание
@@ -87,6 +88,7 @@ Docker-развертывание:
 go test -v ./tests
 ```
 ## 📂 Структура проекта
+```
 .
 ├── Dockerfile
 ├── pkg/
@@ -96,8 +98,9 @@ go test -v ./tests
 ├── web/           # Фронтенд (HTML, CSS, JS)
 ├── tests/         # Интеграционные тесты
 └── go.mod         # Зависимости
+```
 
-👨💻 Автор
+## 👨💻 Автор
 [Горячев Артём]
 [Amazon29@mail.ru]
 [(https://github.com/DarkSin363)]
